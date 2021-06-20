@@ -1,0 +1,16 @@
+{
+  "name": "tencent",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "dcs",
+  "license": "MIT",
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "express": "^4.17.1",
+    "express-art-template": "^1.0.1"
+  },
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "nodemon ./index.js"
+  }
+}

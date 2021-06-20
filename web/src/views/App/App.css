@@ -1,0 +1,50 @@
+#table, h1{
+  text-align: center;
+}
+#table{
+  width:600px;
+  border-collapse:collapse;
+  /* 不让选中 */
+  user-select: none;
+  position: relative;
+  left:50%;
+  top:100px;
+  margin-left:-300px;
+}
+
+li{
+  list-style: none;
+}
+.action{
+  padding:2px 5px;
+}
+
+.action:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  color:red;
+}
+.action:active{
+  color:rgb(14, 143, 143);
+}
+
+
+.change{
+  width:600px;
+  border: 1px solid #000;
+  background: #fff;
+  position: relative;
+  left:50%;
+  margin-left: -300px;
+  top:50px;
+  box-shadow: 10px 47px 10px #e9e8e8;
+}
+
+.change p{
+  text-align: center;
+}
+.change #input, #btn{
+  padding:5px  208px;
+  
+}
+

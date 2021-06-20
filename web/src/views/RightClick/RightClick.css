@@ -1,0 +1,36 @@
+
+#box{
+    /* height:1000px; */
+    /* 测试有窗口拉条 */
+}
+#menu{
+    position: absolute;
+    width:200px;
+    background: #fff;
+    box-shadow:10px 10px 10px #afadad;
+    display:none;
+}
+#menu,.menuItem{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+.menuItem{
+    height:30px;
+    font-size:small;
+    line-height: 30px;
+    padding-left: 50px;
+}
+
+/* 鼠标悬浮触发样式 */
+.menuItem:hover{
+    background: #f5f2f2;
+}
+
+/* 点击时触发样式 */
+.menuItem:active{
+    background: rgb(187, 228, 241);
+}
+
+
+

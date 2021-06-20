@@ -1,0 +1,13 @@
+.add{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:300px;
+    height:100px;
+    text-align: center;
+    position:relative;
+    left:70%;
+    top:120px;
+    box-shadow: 10px 10px 10px #b6b5b5;
+}
+
